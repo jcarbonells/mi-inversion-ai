@@ -1,0 +1,85 @@
+objective:
+  benchmark: S&P500
+  alpha_target: 0.05
+risk:
+  max_drawdown: 0.1
+  amber_dd: 0.09
+universe:
+  regions:
+  - USA
+  - EUROPE
+  - EM
+  - WORLD
+  base_currency: EUR
+fx_policy:
+  hedge_mode: signal_based
+  pairs:
+  - EURUSD=X
+  - EURGBP=X
+  - EURJPY=X
+limits:
+  max_region_weight: 0.3
+  max_asset_weight: 0.05
+  leverage_allowed: false
+reporting:
+  weekly_day: FRI
+  daily_alert_time: 16:30 Europe/Madrid
+  output_format: pdf
+  
+tickers:
+ # Índices de referencia
+
+  indices:
+  - ^GSPC
+  - ^STOXX50E
+  - ACWI
+  - EEM
+
+ # ETFs UCITS (cotizan en Europa, tienen datos en Yahoo)
+  etfs_ucits:
+  - EUN2.DE
+  - EIMI.L
+  - DFNS.MI
+  - INRG.MI
+ 
+
+ 
+  # Fondos :
+  - 0P00000LRT.F
+  - 0P0001FAMF.F
+  - 0P0001K6GO.F
+  - 0P000125YU.L
+  - IE0007472115.IR
+  - 0P00000F24.F
+  - 0P0001CJGN.F
+
+
+   # Acciones (con sufijos correctos para Yahoo Finance)
+
+  acciones:
+  - FOO.F   #Salesforce
+  - ZEG.DE  #AstraZeneca
+  - ASML.AS #ASML
+  - 5DQ2.DU #Daqo
+  - ACN     #ACN
+
+  fx:
+  - EURUSD=X
+  - EURGBP=X
+  - EURJPY=X
+  
+history:
+  start: '2015-01-01'
+  end: null
+  interval: 1d
+  
+# Reglas de cobertura FX (para el FX Agent)
+fx_hedge_rules:
+  exposure_threshold: 0.10    # 10% del patrimonio
+  trend_lookback: 90          # días para tendencia
+  vol_threshold: 0.10         # 10% de volatilidad anualizada
+  dd_threshold: -0.05         # drawdown < -5%
+  hedge_levels:
+    trend_bearish: 75         # %
+    high_vol: 50              # %
+    risk_off: 100             # %
