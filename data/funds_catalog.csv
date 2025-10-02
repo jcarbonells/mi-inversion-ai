@@ -1,0 +1,7 @@
+ticker_yf,nombre,categoria,clase,divisa,gestora,isin,region,distribucion,notas
+0P00000LRT.F,AXA Trésor Court Terme C,Monetario,CAP,EUR,AXA,FR0000447823,EUR,Acumulación,Fondo monetario EUR corto plazo
+0P00000LRT.F,Groupama Trésorerie,Monetario,,EUR,Groupama,FR0000989626,EUR,Acumulación,Fondo monetario EUR corto plazo
+0P0001FAMF.F,Neuberger Short Duration Euro Bond,Renta Fija Corto,,EUR,Neuberger Berman,IE00BFZMJT78,EUR,Acumulación,Duración corta corporativa EUR
+0P0001K6GO.F,M&G European Credit Investment W,Renta Fija IG 1-5a,ACC,EUR,M&G,LU2377004903,EUR,Acumulación,Crédito europeo grado inversión
+0P000125YU.L,M&G Total Return Credit Investment W,Renta Fija Flexible,ACC,EUR,M&G,LU2377005462,EUR,Acumulación,Estrategia crédito flexible
+IE0007472115.IR,Vanguard Euro Government Bond Index (EUR),Soberano EUR 6-7a,ACC,EUR,Vanguard,IE0007472115,EUR,Acumulación,Indice deuda pública zona euro

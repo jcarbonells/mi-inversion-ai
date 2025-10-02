@@ -1,0 +1,16 @@
+{
+  "last_update": "2025-10-01T16:33:36.273685",
+  "tickers": [
+    "0P00000LRT.F",
+    "0P0001FAME.F",
+    "5DQ2.DU",
+    "ACN",
+    "ASML.AS",
+    "EUN1.DE",
+    "FOO.F",
+    "INRG.MI",
+    "ZEG.DE"
+  ],
+  "raw_path": "/content/drive/MyDrive/investment_ai/data/raw/my_portfolio_prices.parquet",
+  "clean_path": "/content/drive/MyDrive/investment_ai/data/clean/my_portfolio_prices_clean.parquet"
+}

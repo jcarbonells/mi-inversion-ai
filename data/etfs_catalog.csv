@@ -1,0 +1,4 @@
+ticker,nombre,region,divisa,hedged,TER,proveedor,isin
+EUN2.DE,iShares STOXX Europe 50 UCITS ETF,EUROPE,EUR,No,,iShares,"IE00BYX5MD61+IE0008470928"
+EIMI.L,iShares Core MSCI Emerging Markets IMI UCITS ETF (proxy),EM,EUR,No,,iShares,IE00BYX5M476
+DFNS.MI,VanEck Defense UCITS ETF,WORLD,EUR,No,,VanEck,IE000YYE6WK5

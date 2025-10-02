@@ -1,0 +1,22 @@
+Modulo,Bloque,ticker_yf,ISIN,nombre,Tipo,Moneda,importe_actual_eur
+1.0,Liquidez,,-,Cash,Cash,EUR,50000.0
+1.0,Fondo Emergencia + Obras,0P00000LRT.F,FR0000989626,Groupama Trésorerie,Fondo,EUR,79127.0
+1.0,Fondo Emergencia + Obras,0P00000F24.F,FR0000447823,AXA TRESOR COURT TERME C CAP EUR (CAIXA),Fondo,EUR,120000.0
+2.0,Bono Corporativo Tramo Corto,0P0001FAMF.F,IE00BFZMJT78,Neuberger Short Duration Euro Bond,Fondo,EUR,120000.0
+2.0,Bono Corporativo Tramo 1-5 años,0P0001K6GO.F,LU2377004903,M&G European Credit Investment W (EUR) ACC,Fondo,EUR,90000.0
+2.0,Crédito flexible Total Return,0P000125YU.L,LU2377005462,M&G Total Return Credit Investment W (EUR) ACC Credit F (Flexible de 1 a 3 años ),Fondo,EUR,50000.0
+2.0,Soberanos euro 6-7 años,IE0007472115.IR,IE0007472115,Vanguard Euro Government Bond Index (EUR) ACC (cuando tipos bajen cargo aquí 50k),Fondo,EUR,0.0
+3.0,RV Core Europa,0P0001CJGN.F,IE00BYX5MD61,Fidelity MSCI Europe Index Fund P-ACC-EUR,Fondo,EUR,0.0
+3.0,RV Core Europa,EUN2.DE,IE0008470928,iShares STOXX Europe 50 UCITS ETF EUR (Dist) EUR,ETF,EUR,25051.0
+3.0,RV Core EM,EIMI.L,IE00BYX5M476,Fidelity MSCI Emerging Markets Index Fund P-ACC-EUR,Fondo,EUR,0.0
+3.0,RV Core Europa,,IE00BKWQ0M75,SPDR MSCI Europe Small Cap UCITS ETF EUR,ETF,EUR,0.0
+3.0,RV Satélite - Liquidez,,-,Cash para Invertir en RV Core,Cash,EUR,42241.0
+4.0,RV Satélite,FOO,US83324Q1067,Salesforce (FOO),Acción,USD,5695.4
+4.0,RV Satélite,ZEG,GB0009895292,AstraZeneca (ZEG),Acción,GBP,14191.0
+4.0,RV Satélite,ASML,NL0010273215,ASML Holding (ASML),Acción,EUR,22847.0
+4.0,RV Satélite,INRG.MI,E00B1XNHC34,INRG,ETF,EUR,9547.2
+4.0,RV Satélite,5DQ2y,US23703Q2030,DAQO,Acción,USD,4446.0
+4.0,RV Core Europa,DFNS.MI,IE000YYE6WK5,VanEck Defense UCITS ETF,ETF,EUR,30000.0
+4.0,RV Satélite -Liquidez,,-,Cash para Invertir en Satelites,Cash,EUR,878.7
+5.0,Programa Mensual /Vender pasado 1 año,ACN,,"ACN Programa de Compra Mensual 5k/mes, 60 k/año+gift 50% de acciones adicionales",Otros,USD,60000.0
+5.0,Vesting 2029 / vender a partir del 2029,ACN,,"ACN Bonus 220k$, otorgados OCT'24, por 350$/Accion, Vested 2029",Otros,USD,160000.0

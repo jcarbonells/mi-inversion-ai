@@ -1,0 +1,24 @@
+fecha_emision,agente,tipo_senal,recomendacion,contexto_liquidez,contexto_mercado,horizonte_eval,señal_id,metadata,resultado,evaluable
+2025-10-01,fx_agent,cobertura_fx,No se recomienda cobertura FX en este momento.,Contractivo,Normal,5d,fx_agent_20251001_855,"{'divisas_analizadas': ['EUR', 'GBP', 'USD'], 'score_liquidez': 2.5, 'geo_alert': False}",,False
+2025-10-01,fx_agent,cobertura_fx,Cobertura FX recomendada para: USD con ajustes por liquidez (Contractivo) y riesgos.,Contractivo,Normal,5d,fx_agent_20251001_030,"{'divisas_a_cubrir': ['USD'], 'recomendaciones_detalle': {'USD': {'exposicion_%': 0.260333793991862, '%_cobertura': 80, 'razones': ['Liquidez Contractiva']}}, 'score_liquidez': 2.5, 'geo_alert': False, 'usd_adjustment': True}",,False
+2025-07-14,fx_agent,cobertura_fx,Cobertura FX recomendada para:  (simulado 2025-07-14),Expansivo,Normal,5d,fx_sim_20250714,"{'divisas_a_cubrir': [], 'simulado': True}",,False
+2025-07-21,fx_agent,cobertura_fx,Cobertura FX recomendada para:  (simulado 2025-07-21),Expansivo,Normal,5d,fx_sim_20250721,"{'divisas_a_cubrir': [], 'simulado': True}",,False
+2025-07-28,fx_agent,cobertura_fx,Cobertura FX recomendada para:  (simulado 2025-07-28),Expansivo,Normal,5d,fx_sim_20250728,"{'divisas_a_cubrir': [], 'simulado': True}",,False
+2025-08-04,fx_agent,cobertura_fx,Cobertura FX recomendada para:  (simulado 2025-08-04),Expansivo,Normal,5d,fx_sim_20250804,"{'divisas_a_cubrir': [], 'simulado': True}",,False
+2025-08-11,fx_agent,cobertura_fx,Cobertura FX recomendada para:  (simulado 2025-08-11),Expansivo,Normal,5d,fx_sim_20250811,"{'divisas_a_cubrir': [], 'simulado': True}",,False
+2025-08-18,fx_agent,cobertura_fx,Cobertura FX recomendada para:  (simulado 2025-08-18),Expansivo,Normal,5d,fx_sim_20250818,"{'divisas_a_cubrir': [], 'simulado': True}",,False
+2025-08-25,fx_agent,cobertura_fx,Cobertura FX recomendada para:  (simulado 2025-08-25),Expansivo,Normal,5d,fx_sim_20250825,"{'divisas_a_cubrir': [], 'simulado': True}",,False
+2025-09-01,fx_agent,cobertura_fx,Cobertura FX recomendada para: USD (simulado 2025-09-01),Contractivo,Normal,5d,fx_sim_20250901,"{'divisas_a_cubrir': ['USD'], 'simulado': True}","Ticker
+DX=F    False
+dtype: bool",True
+2025-09-08,fx_agent,cobertura_fx,Cobertura FX recomendada para: USD (simulado 2025-09-08),Contractivo,Normal,5d,fx_sim_20250908,"{'divisas_a_cubrir': ['USD'], 'simulado': True}","Ticker
+DX=F    False
+dtype: bool",True
+2025-09-15,fx_agent,cobertura_fx,Cobertura FX recomendada para: USD (simulado 2025-09-15),Contractivo,Normal,5d,fx_sim_20250915,"{'divisas_a_cubrir': ['USD'], 'simulado': True}","Ticker
+DX=F    False
+dtype: bool",True
+2025-09-22,fx_agent,cobertura_fx,Cobertura FX recomendada para: USD (simulado 2025-09-22),Contractivo,Normal,5d,fx_sim_20250922,"{'divisas_a_cubrir': ['USD'], 'simulado': True}","Ticker
+DX=F    False
+dtype: bool",True
+2025-09-29,fx_agent,cobertura_fx,No se recomienda cobertura FX (simulado),Contractivo,Normal,5d,fx_sim_20250929,"{'divisas_analizadas': ['EUR', 'GBP', 'USD'], 'simulado': True}",,False
+2025-10-01,fx_agent,cobertura_fx,Cobertura FX recomendada para: USD con ajustes por liquidez (Contractivo) y riesgos.,Contractivo,Normal,5d,fx_agent_20251001_141,"{'divisas_a_cubrir': ['USD'], 'recomendaciones_detalle': {'USD': {'exposicion_%': 0.260333793991862, '%_cobertura': 80, 'razones': ['Liquidez Contractiva']}}, 'score_liquidez': 2.5, 'geo_alert': False, 'usd_adjustment': True}",,False
