@@ -1,0 +1,91 @@
+{
+  "fecha": "2025-10-01",
+  "activos": {
+    "CASH": {
+      "nombre": "Cash",
+      "capital_inicial": 330000.0,
+      "valor_actual": 330000.0,
+      "retorno_total": 0.0,
+      "drawdown_max": 0.0,
+      "volatilidad": 0.0
+    },
+    "0P00000LRT.F": {
+      "nombre": "Groupama Tr\u00e9sorerie",
+      "capital_inicial": 82004.96109,
+      "valor_actual": 82581.7964765625,
+      "retorno_total": 0.007034152310973152,
+      "drawdown_max": -0.01610434003251846,
+      "volatilidad": 0.001581837225801666
+    },
+    "0P0001FAME.F": {
+      "nombre": "Neuberger Short Duration Euro Bond",
+      "capital_inicial": 46208.90048,
+      "valor_actual": 46264.50425745392,
+      "retorno_total": 0.0012033131469550984,
+      "drawdown_max": -0.0011093513107272629,
+      "volatilidad": 0.005881707283295993
+    },
+    "EUN1.DE": {
+      "nombre": "ETF ISHARES STOXX EUROPE 50",
+      "capital_inicial": 25079.6,
+      "valor_actual": 24957.399444580078,
+      "retorno_total": -0.004872508150844501,
+      "drawdown_max": -0.016713066421671603,
+      "volatilidad": 0.10680454717053157
+    },
+    "FOO.F": {
+      "nombre": "Salesforce (FOO)",
+      "capital_inicial": 6886.0,
+      "valor_actual": 5586.0,
+      "retorno_total": -0.18878884693581177,
+      "drawdown_max": -0.47159844388890737,
+      "volatilidad": 0.37222115781176196
+    },
+    "ZEG.DE": {
+      "nombre": "AstraZeneca (ZEG)",
+      "capital_inicial": 15206.400000000001,
+      "valor_actual": 15460.199340820312,
+      "retorno_total": 0.016690297560258305,
+      "drawdown_max": -0.2364195667960998,
+      "volatilidad": 0.30778172169821666
+    },
+    "ASML.AS": {
+      "nombre": "ASML Holding (ASML)",
+      "capital_inicial": 19802.8,
+      "valor_actual": 26083.400756835938,
+      "retorno_total": 0.31715720791180724,
+      "drawdown_max": -0.0857083104189587,
+      "volatilidad": 0.32997351566479627
+    },
+    "INRG.MI": {
+      "nombre": "INRG",
+      "capital_inicial": 14430.0,
+      "valor_actual": 10086.699771881104,
+      "retorno_total": -0.3009910067996463,
+      "drawdown_max": -0.5752955562430375,
+      "volatilidad": 0.24254000045185312
+    },
+    "5DQ2.DU": {
+      "nombre": "DAQO Energy",
+      "capital_inicial": 11485.5,
+      "valor_actual": 4719.000148773193,
+      "retorno_total": -0.5891341126835408,
+      "drawdown_max": -0.8517006854621731,
+      "volatilidad": 0.7458585878771574
+    },
+    "ACN": {
+      "nombre": "ACN Programa Mensual 5k/mes +Gift 50% Stock",
+      "capital_inicial": 40000.0,
+      "valor_actual": 32271.444001130716,
+      "retorno_total": -0.1932138999717321,
+      "drawdown_max": -0.4102144426810575,
+      "volatilidad": 0.27563719312094337
+    }
+  },
+  "total": {
+    "capital_inicial": 591104.16157,
+    "valor_actual": 578010.4441980378,
+    "retorno_total": -0.022151286056225065,
+    "valor_mejorado": 599108.2979201869
+  }
+}

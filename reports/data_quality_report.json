@@ -1,0 +1,134 @@
+[
+  {
+    "name": "indices_raw",
+    "rows": 2769,
+    "cols": 4,
+    "nulls_by_col": {
+      "ACWI": 69,
+      "EEM": 69,
+      "^GSPC": 69,
+      "^STOXX50E": 70
+    },
+    "dup_rows": 0,
+    "extreme_moves_>5sigma": {
+      "ACWI": 11,
+      "EEM": 9,
+      "^GSPC": 11,
+      "^STOXX50E": 6
+    }
+  },
+  {
+    "name": "indices_clean",
+    "rows": 2769,
+    "cols": 4,
+    "nulls_by_col": {
+      "ACWI": 0,
+      "EEM": 0,
+      "^GSPC": 0,
+      "^STOXX50E": 0
+    },
+    "dup_rows": 0,
+    "extreme_moves_>5sigma": {
+      "ACWI": 12,
+      "EEM": 9,
+      "^GSPC": 11,
+      "^STOXX50E": 6
+    }
+  },
+  {
+    "name": "fx_raw",
+    "rows": 2797,
+    "cols": 3,
+    "nulls_by_col": {
+      "EURGBP=X": 0,
+      "EURJPY=X": 0,
+      "EURUSD=X": 1
+    },
+    "dup_rows": 0,
+    "extreme_moves_>5sigma": {
+      "EURGBP=X": 4,
+      "EURJPY=X": 5,
+      "EURUSD=X": 4
+    }
+  },
+  {
+    "name": "fx_clean",
+    "rows": 2797,
+    "cols": 3,
+    "nulls_by_col": {
+      "EURGBP=X": 0,
+      "EURJPY=X": 0,
+      "EURUSD=X": 0
+    },
+    "dup_rows": 0,
+    "extreme_moves_>5sigma": {
+      "EURGBP=X": 4,
+      "EURJPY=X": 5,
+      "EURUSD=X": 4
+    }
+  },
+  {
+    "name": "etfs_raw",
+    "rows": 2766,
+    "cols": 11,
+    "nulls_by_col": {
+      "0P00000F24.F": 1233,
+      "0P00000LRT.F": 1230,
+      "0P000125YU.L": 114,
+      "0P0001CJGN.F": 879,
+      "0P0001FAMF.F": 1043,
+      "0P0001K6GO.F": 1908,
+      "DFNS.MI": 2165,
+      "EIMI.L": 53,
+      "EUN2.DE": 35,
+      "IE0007472115.IR": 799,
+      "INRG.MI": 35
+    },
+    "dup_rows": 0,
+    "extreme_moves_>5sigma": {
+      "0P00000F24.F": 2,
+      "0P00000LRT.F": 2,
+      "0P000125YU.L": 1,
+      "0P0001CJGN.F": 1,
+      "0P0001FAMF.F": 1,
+      "0P0001K6GO.F": 0,
+      "DFNS.MI": 1,
+      "EIMI.L": 1,
+      "EUN2.DE": 1,
+      "IE0007472115.IR": 0,
+      "INRG.MI": 1
+    }
+  },
+  {
+    "name": "etfs_clean",
+    "rows": 2766,
+    "cols": 11,
+    "nulls_by_col": {
+      "0P00000F24.F": 0,
+      "0P00000LRT.F": 0,
+      "0P000125YU.L": 0,
+      "0P0001CJGN.F": 0,
+      "0P0001FAMF.F": 0,
+      "0P0001K6GO.F": 0,
+      "DFNS.MI": 0,
+      "EIMI.L": 0,
+      "EUN2.DE": 0,
+      "IE0007472115.IR": 0,
+      "INRG.MI": 0
+    },
+    "dup_rows": 1,
+    "extreme_moves_>5sigma": {
+      "0P00000F24.F": 7,
+      "0P00000LRT.F": 11,
+      "0P000125YU.L": 15,
+      "0P0001CJGN.F": 8,
+      "0P0001FAMF.F": 18,
+      "0P0001K6GO.F": 13,
+      "DFNS.MI": 21,
+      "EIMI.L": 7,
+      "EUN2.DE": 6,
+      "IE0007472115.IR": 6,
+      "INRG.MI": 7
+    }
+  }
+]

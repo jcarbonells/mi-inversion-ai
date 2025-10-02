@@ -1,0 +1,9 @@
+{
+  "fx_agent": {
+    "precision_total": 0.0,
+    "aciertos": 0,
+    "total_señales": 4,
+    "precision_30d": 0.0,
+    "ultima_evaluacion": "2025-10-01"
+  }
+}

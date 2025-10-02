@@ -1,0 +1,34 @@
+{
+  "fecha": "2025-10-01",
+  "regimen": "calma",
+  "tickers_analizados": [
+    "0P00000LRT.F",
+    "0P00000F24.F",
+    "0P0001FAMF.F",
+    "0P0001K6GO.F",
+    "0P000125YU.L",
+    "IE0007472115.IR",
+    "0P0001CJGN.F",
+    "EIMI.L",
+    "EUN2.DE",
+    "INRG.MI",
+    "DFNS.MI"
+  ],
+  "se\u00f1ales": {
+    "0P00000LRT.F": "Aumentar",
+    "0P00000F24.F": "Aumentar",
+    "0P0001FAMF.F": "Aumentar",
+    "0P0001K6GO.F": "Mantener",
+    "0P000125YU.L": "Aumentar",
+    "IE0007472115.IR": "Mantener",
+    "0P0001CJGN.F": "Mantener",
+    "EIMI.L": "Mantener",
+    "EUN2.DE": "Mantener",
+    "INRG.MI": "Mantener",
+    "DFNS.MI": "Mantener"
+  },
+  "resumen": {
+    "Mantener": 7,
+    "Aumentar": 4
+  }
+}

@@ -1,0 +1,13 @@
+Cadena ejecutada: 2025-09-30 16:27:26.755500
+Duración: 234 segundos
+00_liquidity_agent.ipynb: OK
+01_data_prep.ipynb: OK
+02_portfolio_exposure.ipynb: OK
+06_portfolio_reconstructor.ipynb: OK
+07_asset_metrics.ipynb: OK
+11_market_analyst.ipynb: OK
+12_sectorial_strength.ipynb: OK
+03_fx_agent.ipynb: OK
+04_quant_signals.ipynb: OK
+05_risk_manager.ipynb: OK
+07_reporter_advanced.ipynb: OK

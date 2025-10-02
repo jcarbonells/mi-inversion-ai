@@ -1,0 +1,12 @@
+{
+  "fecha": "2025-10-01",
+  "estado_general": "AMBER",
+  "drawdown": -0.0378007073223811,
+  "retorno_cartera": 0.021632390186743455,
+  "alpha": -0.08417968597137016,
+  "brechas": {
+    "activos": 8,
+    "regiones": 2
+  },
+  "usd_no_hedged_pct": 0.260333793991862
+}

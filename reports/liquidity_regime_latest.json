@@ -1,0 +1,37 @@
+{
+  "regimen": "Contractivo",
+  "score": 2.5,
+  "fecha": "2025-10-02",
+  "capas": {
+    "m2_yoy": 4.77,
+    "fed_delta_bn": -104.9,
+    "pmi": 51.0,
+    "real_rate": 1.15,
+    "vix": 16.1
+  },
+  "factores_emergentes": {
+    "usdc_bn": null,
+    "deficit_bn": 1832.816,
+    "corp_cash_bn": 2.6924650999999997
+  },
+  "riesgos": [
+    {
+      "nombre": "Sostenibilidad deuda p\u00fablica",
+      "valor": "118.8% del PIB",
+      "nivel": "Moderado",
+      "alerta": false
+    },
+    {
+      "nombre": "Shocks cadena de suministro",
+      "valor": "PPI mensual: -0.05%",
+      "nivel": "Bajo",
+      "alerta": false
+    },
+    {
+      "nombre": "Liquidez en mercados emergentes",
+      "valor": "DXY: 97.6, EEM: +1.9%",
+      "nivel": "Bajo",
+      "alerta": false
+    }
+  ]
+}

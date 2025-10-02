@@ -1,0 +1,25 @@
+{
+  "fecha": "2025-10-02",
+  "se\u00f1ales": {
+    "XLK": "COMPRAR",
+    "XLU": "COMPRAR",
+    "XLY": "NEUTRAL",
+    "XLE": "NEUTRAL",
+    "XLV": "NEUTRAL",
+    "XLF": "VENDER",
+    "LQD": "VENDER",
+    "TLT": "VENDER",
+    "XLB": "VENDER"
+  },
+  "top_oportunidades": [
+    "XLK",
+    "XLU"
+  ],
+  "alertas": [
+    "XLF",
+    "LQD",
+    "TLT",
+    "XLB"
+  ],
+  "total_analizados": 9
+}

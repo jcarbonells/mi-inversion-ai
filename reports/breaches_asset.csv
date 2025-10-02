@@ -1,0 +1,9 @@
+nombre,tipo,importe_actual_eur,region,divisa_base,hedged,categoria,isin,moneda,ticker_yf,peso_%,breach_asset
+,Fondo,79127.0,OTROS,EUR,No,Fondo,FR0000989626,EUR,0P00000LRT.F,8.95077205456909,True
+Groupama Trésorerie,Fondo,120000.0,OTROS,EUR,No,Fondo,FR0000447823,EUR,0P00000F24.F,13.574287494133364,True
+AXA TRESOR COURT TERME C CAP EUR (CAIXA),Fondo,120000.0,OTROS,EUR,No,Fondo,IE00BFZMJT78,EUR,0P0001FAMF.F,13.574287494133364,True
+Neuberger Short Duration Euro Bond,Fondo,90000.0,OTROS,EUR,No,Fondo,LU2377004903,EUR,0P0001K6GO.F,10.180715620600022,True
+M&G European Credit Investment W (EUR) ACC,Fondo,50000.0,OTROS,EUR,No,Fondo,LU2377005462,EUR,0P000125YU.L,5.655953122555568,True
+Cash,Cash,50000.0,CASH,EUR,—,Cash,-,EUR,,5.655953122555568,True
+"ACN Programa de Compra Mensual 5k/mes, 60 k/año+gift 50% de acciones adicionales",Otros,60000.0,USA,USD,No,Otros (RSU/Vesting),,USD,ACN,6.787143747066682,True
+"ACN Bonus 220k$, otorgados OCT'24, por 350$/Accion, Vested 2029",Otros,160000.0,USA,USD,No,Otros (RSU/Vesting),,USD,ACN,18.099049992177815,True

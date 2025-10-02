@@ -1,0 +1,12 @@
+{
+  "fecha": "2025-10-01",
+  "capital_inicial": 591104.16157,
+  "valor_actual": 577546.632292417,
+  "valor_regalo": 21097.85372214901,
+  "valor_mejorado": 598644.486014566,
+  "retorno_total_pct": -0.022935939482431666,
+  "retorno_mejorado_pct": 0.012756337943110818,
+  "drawdown_max": -0.03784456268975505,
+  "retorno_anualizado": 0.021849095819770792,
+  "volatilidad": 0.035100862372676234
+}

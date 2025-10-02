@@ -1,0 +1,12 @@
+Activo,Régimen,Momentum,LowVol,Volatilidad_6m_%,Señal
+0P00000LRT.F,calma,positivo,True,0.0014522024842106105,Aumentar
+0P00000F24.F,calma,positivo,True,0.0014686965524708308,Aumentar
+0P0001FAMF.F,calma,positivo,True,0.008949167892598175,Aumentar
+0P0001K6GO.F,calma,positivo,False,0.020317398000282646,Mantener
+0P000125YU.L,calma,positivo,True,0.013044737405746193,Aumentar
+IE0007472115.IR,calma,positivo,False,0.036154700355983754,Mantener
+0P0001CJGN.F,calma,positivo,False,0.16658703497114538,Mantener
+EIMI.L,calma,positivo,False,0.1835575899887938,Mantener
+EUN2.DE,calma,positivo,False,0.1922917490424159,Mantener
+INRG.MI,calma,negativo,False,0.21417958151559685,Mantener
+DFNS.MI,calma,positivo,False,0.2578645198000366,Mantener

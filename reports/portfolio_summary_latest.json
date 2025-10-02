@@ -1,0 +1,16 @@
+{
+  "fecha": "2025-10-01",
+  "total_eur": 884024.2999999999,
+  "regiones": {
+    "OTROS": 59.24,
+    "USA": 30.22,
+    "CASH": 10.53
+  },
+  "categorias": {
+    "Fondo": 51.94,
+    "Otros (RSU/Vesting)": 24.89,
+    "Cash": 10.53,
+    "ETF": 7.31,
+    "Renta Variable": 5.34
+  }
+}

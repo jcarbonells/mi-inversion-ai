@@ -1,0 +1,299 @@
+{
+  "fecha_analisis": "2020-04-29",
+  "score": 0.55,
+  "regimen": "🟢 Ofensivo",
+  "semaforos": {
+    "M2": "🟢",
+    "RRP": "🟢",
+    "Curva": "🟢",
+    "HY_OAS": "🔴",
+    "NFCI": "🟡",
+    "Yield_10Y": "🟢"
+  },
+  "valores_numericos": {
+    "M2": 37.490601275801,
+    "RRP": 1.5,
+    "Curva": 0.38,
+    "HY_OAS": 8.03,
+    "NFCI": 0.16462,
+    "Yield_10Y": 0.6
+  },
+  "historico_semanal": [
+    {
+      "Fecha": "2020-02-07",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟡",
+      "HY_OAS": "🟡",
+      "NFCI": "🟢",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.7
+    },
+    {
+      "Fecha": "2020-02-14",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟡",
+      "HY_OAS": "🟡",
+      "NFCI": "🟢",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.7
+    },
+    {
+      "Fecha": "2020-02-21",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟡",
+      "HY_OAS": "🟡",
+      "NFCI": "🟢",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.7
+    },
+    {
+      "Fecha": "2020-02-28",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟢",
+      "HY_OAS": "🟡",
+      "NFCI": "🟡",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.7
+    },
+    {
+      "Fecha": "2020-03-06",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟢",
+      "HY_OAS": "🟡",
+      "NFCI": "🟡",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.7
+    },
+    {
+      "Fecha": "2020-03-13",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟢",
+      "HY_OAS": "🔴",
+      "NFCI": "🟡",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.55
+    },
+    {
+      "Fecha": "2020-03-20",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟢",
+      "HY_OAS": "🔴",
+      "NFCI": "🟡",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.55
+    },
+    {
+      "Fecha": "2020-03-27",
+      "M2": "🟢",
+      "RRP": "🟡",
+      "Curva": "🟢",
+      "HY_OAS": "🔴",
+      "NFCI": "🟡",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.35
+    },
+    {
+      "Fecha": "2020-04-03",
+      "M2": "🟢",
+      "RRP": "🟡",
+      "Curva": "🟢",
+      "HY_OAS": "🔴",
+      "NFCI": "🔴",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟡 Neutral",
+      "Score": 0.2
+    },
+    {
+      "Fecha": "2020-04-10",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟢",
+      "HY_OAS": "🔴",
+      "NFCI": "🔴",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.4
+    },
+    {
+      "Fecha": "2020-04-17",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟢",
+      "HY_OAS": "🔴",
+      "NFCI": "🟡",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.55
+    },
+    {
+      "Fecha": "2020-04-24",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟢",
+      "HY_OAS": "🔴",
+      "NFCI": "🟡",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.55
+    }
+  ],
+  "historico_mensual": [
+    {
+      "Fecha": "2019-04-30",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟢",
+      "HY_OAS": "🟡",
+      "NFCI": "🟢",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.85
+    },
+    {
+      "Fecha": "2019-05-31",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟡",
+      "HY_OAS": "🟡",
+      "NFCI": "🟢",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.7
+    },
+    {
+      "Fecha": "2019-06-30",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟢",
+      "HY_OAS": "🟡",
+      "NFCI": "🟢",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.85
+    },
+    {
+      "Fecha": "2019-07-31",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟢",
+      "HY_OAS": "🟡",
+      "NFCI": "🟢",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.85
+    },
+    {
+      "Fecha": "2019-08-31",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟡",
+      "HY_OAS": "🟡",
+      "NFCI": "🟢",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.7
+    },
+    {
+      "Fecha": "2019-09-30",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟡",
+      "HY_OAS": "🟡",
+      "NFCI": "🟢",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.7
+    },
+    {
+      "Fecha": "2019-10-31",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟡",
+      "HY_OAS": "🟡",
+      "NFCI": "🟢",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.7
+    },
+    {
+      "Fecha": "2019-11-30",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟡",
+      "HY_OAS": "🟡",
+      "NFCI": "🟢",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.7
+    },
+    {
+      "Fecha": "2019-12-31",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟢",
+      "HY_OAS": "🟡",
+      "NFCI": "🟢",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.85
+    },
+    {
+      "Fecha": "2020-01-31",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟡",
+      "HY_OAS": "🟡",
+      "NFCI": "🟢",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.7
+    },
+    {
+      "Fecha": "2020-02-29",
+      "M2": "🟢",
+      "RRP": "🟢",
+      "Curva": "🟢",
+      "HY_OAS": "🟡",
+      "NFCI": "🟡",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.7
+    },
+    {
+      "Fecha": "2020-03-31",
+      "M2": "🟢",
+      "RRP": "🟡",
+      "Curva": "🟢",
+      "HY_OAS": "🔴",
+      "NFCI": "🟡",
+      "Yield_10Y": "🟢",
+      "Régimen": "🟢 Ofensivo",
+      "Score": 0.35
+    }
+  ],
+  "alertas": [
+    "🟢 Curva normalizada (0.38%) → Se puede aumentar riesgo",
+    "🟢 RRP muy bajo (2 B$) → Liquidez abundante"
+  ],
+  "recomendaciones": [
+    "1. Aumentar equity global +8-12p.p. priorizando Quality/Momentum",
+    "2. Añadir +2-3p.p. duración (EUR/UST) si VIX <20",
+    "3. Entradas por tramos 1-2% semanal, stop 8% bajo máximos"
+  ],
+  "percentil_historico": 17.25663716814159
+}
