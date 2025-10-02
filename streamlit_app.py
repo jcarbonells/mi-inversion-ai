@@ -1,5 +1,5 @@
 # Celda: Crear el archivo corregido
-%%writefile /content/investment_ai_final/streamlit_app.py
+%writefile /content/investment_ai_final/streamlit_app.py
 import streamlit as st
 import google.generativeai as genai
 import os
