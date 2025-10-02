@@ -1,5 +1,4 @@
-# Celda: Crear el archivo corregido
-%writefile /content/investment_ai_final/streamlit_app.py
+# streamlit_app.py - Código limpio para GitHub
 import streamlit as st
 import google.generativeai as genai
 import os
