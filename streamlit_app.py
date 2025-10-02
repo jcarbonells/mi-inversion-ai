@@ -162,3 +162,120 @@ if st.button("🗑️ Limpiar conversación"):
             "texto": "👋 ¡Hola de nuevo! Historial limpiado. ¿En qué puedo ayudarte?"
         }
     ]
+
+#Añadir controles de ejecución en la interfaz
+# En tu streamlit_app.py, añade esta sección
+with st.sidebar:
+    st.header("⚙️ Control del Sistema")
+    
+    # Botón para ejecutar el orquestador completo
+    if st.button("🔄 Ejecutar Orquestador Completo"):
+        with st.spinner("Ejecutando orquestador..."):
+            try:
+                import subprocess
+                result = subprocess.run(['python', 'orchestrator.py'], 
+                                      capture_output=True, text=True)
+                if result.returncode == 0:
+                    st.success("✅ Orquestador ejecutado exitosamente")
+                    st.code(result.stdout)
+                else:
+                    st.error(f"❌ Error: {result.stderr}")
+            except Exception as e:
+                st.error(f"❌ Error: {e}")
+    
+    st.subheader("🤖 Agentes Individuales")
+    
+    # Botones para ejecutar agentes individuales
+    agent_options = {
+        "Liquidity Agent": "00_liquidity_agent.py",
+        "FX Agent": "03_fx_agent.py", 
+        "Quant Signals": "04_quant_signals.py",
+        "Risk Manager": "05_risk_manager.py",
+        "Market Analyst": "11_market_analyst.py",
+        "Sectorial Strength": "12_sectorial_strength.py",
+        "Performance Agent": "13_performance_agent.py"
+    }
+    
+    selected_agent = st.selectbox("Selecciona un agente:", list(agent_options.keys()))
+    
+    if st.button(f"▶️ Ejecutar {selected_agent}"):
+        agent_file = agent_options[selected_agent]
+        with st.spinner(f"Ejecutando {selected_agent}..."):
+            try:
+                import subprocess
+                result = subprocess.run(['python', agent_file], 
+                                      capture_output=True, text=True)
+                if result.returncode == 0:
+                    st.success(f"✅ {selected_agent} ejecutado exitosamente")
+                    st.code(result.stdout)
+                else:
+                    st.error(f"❌ Error: {result.stderr}")
+            except Exception as e:
+                st.error(f"❌ Error: {e}")
+
+
+# Añade esta función para validar la ejecución
+def validate_agent_execution(agent_name):
+    """Validar que el agente a ejecutar es seguro"""
+    allowed_agents = [
+        "00_liquidity_agent.py", "01_data_prep.py", "02_portfolio_exposure.py",
+        "03_fx_agent.py", "04_quant_signals.py", "05_risk_manager.py",
+        "06_portfolio_reconstructor.py", "07_asset_metrics.py", 
+        "07_reporter_advanced.py", "09_orchestrator.py", "11_market_analyst.py",
+        "12_sectorial_strength.py", "13_performance_agent.py"
+    ]
+    return agent_name in allowed_agents
+
+# Usa esta función antes de ejecutar
+if validate_agent_execution(agent_file):
+    # Ejecutar el agente
+    pass
+else:
+    st.error("❌ Agente no autorizado")
+
+# Añade esta función para validar la ejecución
+def validate_agent_execution(agent_name):
+    """Validar que el agente a ejecutar es seguro"""
+    allowed_agents = [
+        "00_liquidity_agent.py", "01_data_prep.py", "02_portfolio_exposure.py",
+        "03_fx_agent.py", "04_quant_signals.py", "05_risk_manager.py",
+        "06_portfolio_reconstructor.py", "07_asset_metrics.py", 
+        "07_reporter_advanced.py", "09_orchestrator.py", "11_market_analyst.py",
+        "12_sectorial_strength.py", "13_performance_agent.py"
+    ]
+    return agent_name in allowed_agents
+
+# Usa esta función antes de ejecutar
+if validate_agent_execution(agent_file):
+    # Ejecutar el agente
+    pass
+else:
+    st.error("❌ Agente no autorizado")
+
+
+# Mejorar la interfaz de usuario
+with st.expander("📊 Dashboard de Riesgo"):
+    st.write("Aquí podrías mostrar gráficos de drawdown, alpha, etc.")
+
+with st.expander("📈 Fuerza Sectorial"):
+    st.write("Aquí podrías mostrar la fuerza relativa por sectores/ETFs")
+
+with st.expander("🌍 Análisis Macroeconómico"):
+    st.write("Aquí podrías mostrar el análisis macroeconómico del Market Analyst")
+
+
+#  Conectar con Google Sheets para datos en tiempo real
+import gspread
+from google.oauth2.service_account import Credentials
+
+def get_google_sheets_data():
+    """Obtener datos de Google Sheets"""
+    scope = ['https://spreadsheets.google.com/feeds',
+             'https://www.googleapis.com/auth/drive']
+    
+    creds = Credentials.from_service_account_file('config/service_account.json', scopes=scope)
+    client = gspread.authorize(creds)
+    
+    sheet = client.open_by_key('TU_GOOGLE_SHEET_ID').sheet1
+    data = sheet.get_all_records()
+    return pd.DataFrame(data)
