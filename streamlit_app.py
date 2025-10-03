@@ -1,4 +1,3 @@
-# streamlit_app.py - Centro de Control de Agentes Financieros Autónomos
 import streamlit as st
 import google.generativeai as genai
 import os
@@ -10,7 +9,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import sys
 
-# Añadir la carpeta src al path para importar sheets_controller
+# Añadir la carpeta src al path
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
 try:
