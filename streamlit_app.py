@@ -9,13 +9,13 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import sys
 
-# Añadir la carpeta src al path
-sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
-
+# Intentar importar sheets_controller
 try:
+    sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
     from sheets_controller import SheetsController
+    SHEETS_AVAILABLE = True
 except ImportError:
-    SheetsController = None
+    SHEETS_AVAILABLE = False
     st.warning("⚠️ No se pudo importar sheets_controller - Google Sheets no disponible")
 
 # Configurar API Key
@@ -28,12 +28,11 @@ BASE_DIR = os.path.dirname(__file__)
 REPORTS_DIR = os.path.join(BASE_DIR, "reports")
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
-# Inicializar controlador de Google Sheets con tu ID real
+# Inicializar controlador de Google Sheets si está disponible
 SHEET_ID = "1C5qVh7uTBdNLcWv5kQL8aLkxxsIWDN0yh9y6ReVXLzE"  # Tu Sheet ID real
 sheets_controller = None
 
-# Intentar inicializar Google Sheets con manejo de errores
-if SheetsController:
+if SHEETS_AVAILABLE:
     try:
         # Intentar diferentes rutas para el archivo de credenciales
         possible_paths = [
